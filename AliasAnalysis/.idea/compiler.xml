@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AliasAnalysis" />
+        <module name="giraph" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="giraph-block-app" target="1.8" />
+      <module name="giraph-core" target="1.8" />
+      <module name="giraph-examples" target="1.8" />
+      <module name="giraph-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

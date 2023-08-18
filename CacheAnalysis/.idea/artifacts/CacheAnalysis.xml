@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CacheAnalysis">
+    <output-path>$PROJECT_DIR$/out/artifacts/CacheAnalysis</output-path>
+    <root id="archive" name="CacheAnalysis.jar">
+      <element id="module-output" name="CacheAnalysis" />
+    </root>
+  </artifact>
+</component>
