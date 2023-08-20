@@ -1,0 +1,33 @@
+partition success!
+binary read starting...
+binary cfg done
+binary stmt done
+binary actives done
+Partition: 0
+can't load file_mirrors_shallow: /out2/mirrors_shallow_0
+can't load graphs file: /out2/graphstore_0
+can't load graphs file: /out2/graphstore_in_0
+GraphStore Info >>>>>>>>>>>>>>>>>>>>>>>>>>>
+can't load file_mirrors_shallow: /out2/mirrors_shallow_0
+partition 0
+Number of graphs: 4652565
+Number of graph items: 5666828117
+
+
+Total number of graphs: 4652565
+Total number of graph items: 5666828117
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Error deleting file: No such file or directory
+Error deleting file: No such file or directory
+Number of iterations: 1
+Number of supersteps: 259
+Running time: 8611.29 s
+
+
+------------------------------ resource usage ------------------------------
+Wall time: 8611000 ms; 8611.000 s; 143.517 m; 2.392 h
+CPU time: 377980152.907 ms; 377980.153 s; 6299.669 m; 104.994 h
+Peak memory: 458811096.000 KB; 448057.711 MB; 437.556 GB
+------------------------------ resource usage ------------------------------
+
+

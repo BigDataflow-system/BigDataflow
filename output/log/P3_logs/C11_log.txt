@@ -1,0 +1,250 @@
+==========GRAMMER TEST START==========
+rawLabels: 
+(M,-128) (-d,-127) (Pt,-126) (V,-125) (d,-124) (MAM,-123) (AMs,-122) (MAs,-121) (Mq,-120) (MA,-119) (-a,-118) (AM,-117) (a,-116) 
+eRules :
+-120,-121,-122,
+s-rules and d-rules: 
+d-rule: -128:= -127,-126
+d-rule: -126:= -125,-124
+d-rule: -125:= -123,-122
+d-rule: -122:= -122,-117
+d-rule: -123:= -121,-120
+d-rule: -121:= -121,-119
+d-rule: -119:= -120,-118
+d-rule: -117:= -116,-120
+s-rule: -120:= -128
+==========GRAMMAR TEST END============
+binary read starting...
+binary cfg done
+binary stmt done
+binary actives done
+Partition: 0
+can't load file_mirrors_call: /out1/mirrors_call_0
+can't load file_mirrors_shallow: /out1/mirrors_shallow_0
+can't load graphs file: /out1/graphstore_0
+can't load graphs file: /out1/graphstore_in_0
+GraphStore Info >>>>>>>>>>>>>>>>>>>>>>>>>>>
+can't load file_mirrors_call: /out1/mirrors_call_0
+can't load file_mirrors_shallow: /out1/mirrors_shallow_0
+can't load file_actives: /out1/actives_0
+can't load graphs file: /out1/graphstore_in_0
+can't load file_mirrors_call: /out1/mirrors_call_0
+can't load file_mirrors_shallow: /out1/mirrors_shallow_0
+partition 0
+Number of graphs: 48986893
+Number of vertices: 548268602
+Number of edges: 6993837470
+Number of total items: 6993837470
+Number of graph items: 6993837470
+Number of base items: 0
+Number of memory items: 81328043
+Number of value items: 2098664124
+
+
+Total number of graphs: 48986893
+Total number of vertices: 548268602
+Total number of edges: 6993837470
+Total number of items: 6993837470
+Total number of graph items: 6993837470
+Total number of base items: 0
+Total number of memory items: 81328043
+Total number of value items: 2098664124
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+------------------------------ {preprocess} time usage ------------------------------
+Wall time for "preprocess": 232000 ms; 232.000 s; 3.867 m; 0.064 h
+CPU time for "preprocess": 232420.000 ms; 232.000 s; 3.867 m; 0.064 h
+------------------------------ {preprocess} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-ooc} time usage ------------------------------
+Wall time for "compute-ooc": 13586000 ms; 13586.000 s; 226.433 m; 3.774 h
+CPU time for "compute-ooc": 1113852710.000 ms; 1113852.000 s; 18564.200 m; 309.403 h
+------------------------------ {compute-ooc} time usage ------------------------------
+
+
+
+
+------------------------------ {load} time usage ------------------------------
+Wall time for "load": 116000 ms; 116.000 s; 1.933 m; 0.032 h
+CPU time for "load": 116200.000 ms; 116.000 s; 1.933 m; 0.032 h
+------------------------------ {load} time usage ------------------------------
+
+
+
+
+------------------------------ {compute} time usage ------------------------------
+Wall time for "compute": 12580000 ms; 12580.000 s; 209.667 m; 3.494 h
+CPU time for "compute": 1112846770.000 ms; 1112846.000 s; 18547.433 m; 309.124 h
+------------------------------ {compute} time usage ------------------------------
+
+
+
+
+------------------------------ {compress} time usage ------------------------------
+Wall time for "compress": 0 ms; 0.000 s; 0.000 m; 0.000 h
+CPU time for "compress": 0.000 ms; 0.000 s; 0.000 m; 0.000 h
+------------------------------ {compress} time usage ------------------------------
+
+
+
+
+------------------------------ {pass} time usage ------------------------------
+Wall time for "pass": 377000 ms; 377.000 s; 6.283 m; 0.105 h
+CPU time for "pass": 377310.000 ms; 377.000 s; 6.283 m; 0.105 h
+------------------------------ {pass} time usage ------------------------------
+
+
+
+
+------------------------------ {clean} time usage ------------------------------
+Wall time for "clean": 513000 ms; 513.000 s; 8.550 m; 0.143 h
+CPU time for "clean": 512430.000 ms; 512.000 s; 8.533 m; 0.142 h
+------------------------------ {clean} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-edge-compute} time usage ------------------------------
+Wall time for "compute-edge-compute": 11370000 ms; 11370.000 s; 189.500 m; 3.158 h
+CPU time for "compute-edge-compute": 1066794690.000 ms; 1066794.000 s; 17779.900 m; 296.332 h
+------------------------------ {compute-edge-compute} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-edge-update} time usage ------------------------------
+Wall time for "compute-edge-update": 1205000 ms; 1205.000 s; 20.083 m; 0.335 h
+CPU time for "compute-edge-update": 46048290.000 ms; 46048.000 s; 767.467 m; 12.791 h
+------------------------------ {compute-edge-update} time usage ------------------------------
+
+
+
+
+------------------------------ {merge} time usage ------------------------------
+Wall time for "merge": 70685000 ms; 70685.000 s; 1178.083 m; 19.635 h
+CPU time for "merge": 6179054380.000 ms; 6179054.000 s; 102984.233 m; 1716.404 h
+------------------------------ {merge} time usage ------------------------------
+
+
+
+
+------------------------------ {transfer} time usage ------------------------------
+Wall time for "transfer": 921673000 ms; 921673.000 s; 15361.217 m; 256.020 h
+CPU time for "transfer": 89960940840.000 ms; 89960940.000 s; 1499349.000 m; 24989.150 h
+------------------------------ {transfer} time usage ------------------------------
+
+
+
+
+------------------------------ {propagate} time usage ------------------------------
+Wall time for "propagate": 79306000 ms; 79306.000 s; 1321.767 m; 22.029 h
+CPU time for "propagate": 4800549040.000 ms; 4800549.000 s; 80009.150 m; 1333.486 h
+------------------------------ {propagate} time usage ------------------------------
+
+
+
+
+------------------------------ {transfer-strong-update} time usage ------------------------------
+Wall time for "transfer-strong-update": 21582000 ms; 21582.000 s; 359.700 m; 5.995 h
+CPU time for "transfer-strong-update": 2117810670.000 ms; 2117810.000 s; 35296.833 m; 588.281 h
+------------------------------ {transfer-strong-update} time usage ------------------------------
+
+
+
+
+------------------------------ {transfer-edge-addition} time usage ------------------------------
+Wall time for "transfer-edge-addition": 782775000 ms; 782775.000 s; 13046.250 m; 217.438 h
+CPU time for "transfer-edge-addition": 76330606860.000 ms; 76330606.000 s; 1272176.767 m; 21202.946 h
+------------------------------ {transfer-edge-addition} time usage ------------------------------
+
+
+
+
+------------------------------ {direct-edges-add} time usage ------------------------------
+Wall time for "direct-edges-add": 21972000 ms; 21972.000 s; 366.200 m; 6.103 h
+CPU time for "direct-edges-add": 2115856500.000 ms; 2115856.000 s; 35264.267 m; 587.738 h
+------------------------------ {direct-edges-add} time usage ------------------------------
+
+
+
+
+------------------------------ {init-add} time usage ------------------------------
+Wall time for "init-add": 22471000 ms; 22471.000 s; 374.517 m; 6.242 h
+CPU time for "init-add": 2179144710.000 ms; 2179144.000 s; 36319.067 m; 605.318 h
+------------------------------ {init-add} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-add} time usage ------------------------------
+Wall time for "compute-add": 525021000 ms; 525021.000 s; 8750.350 m; 145.839 h
+CPU time for "compute-add": 51044129940.000 ms; 51044129.000 s; 850735.483 m; 14178.925 h
+------------------------------ {compute-add} time usage ------------------------------
+
+
+
+
+------------------------------ {postprocess-add} time usage ------------------------------
+Wall time for "postprocess-add": 22610000 ms; 22610.000 s; 376.833 m; 6.281 h
+CPU time for "postprocess-add": 2171282670.000 ms; 2171282.000 s; 36188.033 m; 603.134 h
+------------------------------ {postprocess-add} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-add-join} time usage ------------------------------
+Wall time for "compute-add-join": 128819000 ms; 128819.000 s; 2146.983 m; 35.783 h
+CPU time for "compute-add-join": 12235182980.000 ms; 12235182.000 s; 203919.700 m; 3398.662 h
+------------------------------ {compute-add-join} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-add-merge} time usage ------------------------------
+Wall time for "compute-add-merge": 113916000 ms; 113916.000 s; 1898.600 m; 31.643 h
+CPU time for "compute-add-merge": 10958002530.000 ms; 10958002.000 s; 182633.367 m; 3043.889 h
+------------------------------ {compute-add-merge} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-add-join-collect} time usage ------------------------------
+Wall time for "compute-add-join-collect": 0 ms; 0.000 s; 0.000 m; 0.000 h
+CPU time for "compute-add-join-collect": 0.000 ms; 0.000 s; 0.000 m; 0.000 h
+------------------------------ {compute-add-join-collect} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-add-join-merge} time usage ------------------------------
+Wall time for "compute-add-join-merge": 0 ms; 0.000 s; 0.000 m; 0.000 h
+CPU time for "compute-add-join-merge": 0.000 ms; 0.000 s; 0.000 m; 0.000 h
+------------------------------ {compute-add-join-merge} time usage ------------------------------
+
+
+
+
+------------------------------ {compute-add-join-post} time usage ------------------------------
+Wall time for "compute-add-join-post": 0 ms; 0.000 s; 0.000 m; 0.000 h
+CPU time for "compute-add-join-post": 0.000 ms; 0.000 s; 0.000 m; 0.000 h
+------------------------------ {compute-add-join-post} time usage ------------------------------
+
+
+Number of iterations: 1
+Number of supersteps: 113
+Running time: 15306.4 s
+
+
+------------------------------ resource usage ------------------------------
+Wall time: 15306000 ms; 15306.000 s; 255.100 m; 4.252 h
+CPU time: 1115573493.532 ms; 1115573.494 s; 18592.892 m; 309.882 h
+Peak memory: 195766016.000 KB; 191177.750 MB; 186.697 GB
+------------------------------ resource usage ------------------------------
+
+

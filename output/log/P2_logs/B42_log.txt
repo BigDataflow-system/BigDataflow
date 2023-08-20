@@ -1,0 +1,164 @@
+23/01/16 14:32:01 INFO impl.TimelineClientImpl: Timeline service address: http://emr-header-1.cluster-353227:8188/ws/v1/timeline/
+23/01/16 14:32:01 INFO yarn.GiraphYarnClient: Running Client
+23/01/16 14:32:01 INFO client.RMProxy: Connecting to ResourceManager at emr-header-1.cluster-353227/192.168.0.241:8032
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-11.cluster-353227:42756, nodeAddress emr-worker-11.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-1.cluster-353227:39340, nodeAddress emr-worker-1.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-3.cluster-353227:35868, nodeAddress emr-worker-3.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-10.cluster-353227:38759, nodeAddress emr-worker-10.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-9.cluster-353227:40103, nodeAddress emr-worker-9.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-4.cluster-353227:46405, nodeAddress emr-worker-4.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-6.cluster-353227:38824, nodeAddress emr-worker-6.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-8.cluster-353227:39402, nodeAddress emr-worker-8.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-5.cluster-353227:45024, nodeAddress emr-worker-5.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-2.cluster-353227:35021, nodeAddress emr-worker-2.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-7.cluster-353227:33578, nodeAddress emr-worker-7.cluster-353227:8042, nodeRackName /default-rack, nodeNumContainers 0
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Obtained new Application ID: application_1671063693076_0036
+23/01/16 14:32:02 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Set the environment for the application master
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Environment for AM :{CLASSPATH=${CLASSPATH}:./*:$HADOOP_CONF_DIR:$HADOOP_COMMON_HOME/share/hadoop/common/*:$HADOOP_COMMON_HOME/share/hadoop/common/lib/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*:$HADOOP_YARN_HOME/share/hadoop/yarn/*:$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*:/opt/apps/extra-jars/*:$HADOOP_HOME/share/hadoop/tools/lib/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*:/usr/lib/hadoop-lzo/lib/*}
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: buildLocalResourceMap ....
+23/01/16 14:32:02 INFO yarn.YarnUtils: Registered file in LocalResources :: hdfs://emr-header-1.cluster-353227:9000/user/root/giraph_yarn_jar_cache/application_1671063693076_0036/giraph-conf.xml
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: LIB JARS :
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name .
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking .
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /etc/ecm/hadoop-conf
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /etc/ecm/hadoop-conf
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/lib/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/lib
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/lib/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/lib
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/lib/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/lib
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/lib/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/lib
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current/lib/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current/lib
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /usr/lib/tez-current/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /usr/lib/tez-current
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /usr/lib/tez-current/lib/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /usr/lib/tez-current/lib
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /etc/ecm/tez-conf
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /etc/ecm/tez-conf
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /opt/apps/extra-jars/*
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /opt/apps/extra-jars
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /usr/lib/spark-current/yarn/spark-2.3.1-yarn-shuffle.jar
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /usr/lib/spark-current/yarn/spark-2.3.1-yarn-shuffle.jar
+23/01/16 14:32:02 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current/contrib/capacity-scheduler/*.jar
+23/01/16 14:32:02 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current/contrib/capacity-scheduler
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: ApplicationSumbissionContext for GiraphApplicationMaster launch container is populated.
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Submitting application to ASM
+23/01/16 14:32:02 INFO impl.YarnClientImpl: Submitted application application_1671063693076_0036
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: Got new appId after submission :application_1671063693076_0036
+23/01/16 14:32:02 INFO yarn.GiraphYarnClient: GiraphApplicationMaster container request was submitted to ResourceManager for job: Giraph: analysis.Computation
+23/01/16 14:32:03 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 0.81 secs
+23/01/16 14:32:03 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: ACCEPTED, Containers used: 1
+23/01/16 14:32:07 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 4.82 secs
+23/01/16 14:32:07 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 24
+23/01/16 14:32:11 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 8.82 secs
+23/01/16 14:32:11 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:15 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 12.83 secs
+23/01/16 14:32:15 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:19 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 16.83 secs
+23/01/16 14:32:19 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:23 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 20.83 secs
+23/01/16 14:32:23 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:27 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 24.84 secs
+23/01/16 14:32:27 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:31 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 28.84 secs
+23/01/16 14:32:31 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:35 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 32.85 secs
+23/01/16 14:32:35 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:39 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 36.85 secs
+23/01/16 14:32:39 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:43 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 40.85 secs
+23/01/16 14:32:43 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:47 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 44.86 secs
+23/01/16 14:32:47 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:51 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 48.86 secs
+23/01/16 14:32:51 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:55 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 52.87 secs
+23/01/16 14:32:55 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:32:59 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 56.87 secs
+23/01/16 14:32:59 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:03 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 60.88 secs
+23/01/16 14:33:03 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:07 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 64.88 secs
+23/01/16 14:33:07 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:11 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 68.88 secs
+23/01/16 14:33:11 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:15 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 72.89 secs
+23/01/16 14:33:15 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:19 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 76.89 secs
+23/01/16 14:33:19 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:23 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 80.89 secs
+23/01/16 14:33:23 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:27 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 84.90 secs
+23/01/16 14:33:27 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:31 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 88.90 secs
+23/01/16 14:33:31 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:35 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 92.91 secs
+23/01/16 14:33:35 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:39 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 96.91 secs
+23/01/16 14:33:39 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:43 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 100.92 secs
+23/01/16 14:33:43 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:47 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 104.92 secs
+23/01/16 14:33:47 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:51 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 108.92 secs
+23/01/16 14:33:51 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:55 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 112.93 secs
+23/01/16 14:33:55 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:33:59 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 116.93 secs
+23/01/16 14:33:59 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:03 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 120.93 secs
+23/01/16 14:34:03 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:07 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 124.94 secs
+23/01/16 14:34:07 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:11 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 128.94 secs
+23/01/16 14:34:11 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:15 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 132.95 secs
+23/01/16 14:34:15 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:19 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 136.95 secs
+23/01/16 14:34:19 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:23 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 140.95 secs
+23/01/16 14:34:23 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:27 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 144.96 secs
+23/01/16 14:34:27 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:31 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 148.96 secs
+23/01/16 14:34:31 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:35 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 152.96 secs
+23/01/16 14:34:35 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:39 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 156.97 secs
+23/01/16 14:34:39 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:43 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 160.97 secs
+23/01/16 14:34:43 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:47 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 164.98 secs
+23/01/16 14:34:47 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:51 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 168.98 secs
+23/01/16 14:34:51 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:55 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 172.98 secs
+23/01/16 14:34:55 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:34:59 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 176.99 secs
+23/01/16 14:34:59 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:35:03 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 180.99 secs
+23/01/16 14:35:03 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:35:07 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 184.99 secs
+23/01/16 14:35:07 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 42
+23/01/16 14:35:11 INFO yarn.GiraphYarnClient: Giraph: analysis.Computation, Elapsed: 189.00 secs
+23/01/16 14:35:11 INFO yarn.GiraphYarnClient: appattempt_1671063693076_0036_000001, State: RUNNING, Containers used: 1
+23/01/16 14:35:12 INFO yarn.GiraphYarnClient: Cleaning up HDFS distributed cache directory for Giraph job.
+23/01/16 14:35:12 INFO yarn.GiraphYarnClient: Completed Giraph: analysis.Computation: SUCCEEDED, total running time: 3 minutes, 9 seconds.
+2023-01-16 14:31:58
+2023-01-16 14:35:13

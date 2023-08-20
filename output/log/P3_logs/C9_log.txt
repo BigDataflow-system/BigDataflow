@@ -1,0 +1,25 @@
+==========GRAMMER TEST START==========
+rawLabels: 
+(M,-128) (-d,-127) (Pt,-126) (V,-125) (d,-124) (MAM,-123) (AMs,-122) (MAs,-121) (Mq,-120) (MA,-119) (-a,-118) (AM,-117) (a,-116) 
+eRules :
+-120,-121,-122,
+s-rules and d-rules: 
+d-rule: -128:= -127,-126
+d-rule: -126:= -125,-124
+d-rule: -125:= -123,-122
+d-rule: -122:= -122,-117
+d-rule: -123:= -121,-120
+d-rule: -121:= -121,-119
+d-rule: -119:= -120,-118
+d-rule: -117:= -116,-120
+s-rule: -120:= -128
+==========GRAMMAR TEST END============
+binary read starting...
+binary cfg done
+binary stmt done
+binary actives done
+Partition: 0
+can't load file_mirrors_call: /out1/mirrors_call_0
+can't load file_mirrors_shallow: /out1/mirrors_shallow_0
+can't load graphs file: /out1/graphstore_0
+can't load graphs file: /out1/graphstore_in_0

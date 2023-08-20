@@ -1,0 +1,299 @@
+
+22/08/29 21:14:03 INFO client.RMProxy: Connecting to ResourceManager at emr-header-1.cluster-333284/192.168.1.161:8032
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-40.cluster-333284:45745, nodeAddress emr-worker-40.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-74.cluster-333284:45541, nodeAddress emr-worker-74.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-1.cluster-333284:36375, nodeAddress emr-worker-1.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-27.cluster-333284:37600, nodeAddress emr-worker-27.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-60.cluster-333284:38290, nodeAddress emr-worker-60.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-75.cluster-333284:45733, nodeAddress emr-worker-75.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-88.cluster-333284:35887, nodeAddress emr-worker-88.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-9.cluster-333284:38129, nodeAddress emr-worker-9.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-21.cluster-333284:40062, nodeAddress emr-worker-21.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-8.cluster-333284:34859, nodeAddress emr-worker-8.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-77.cluster-333284:46854, nodeAddress emr-worker-77.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-50.cluster-333284:41217, nodeAddress emr-worker-50.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-71.cluster-333284:41942, nodeAddress emr-worker-71.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-80.cluster-333284:43407, nodeAddress emr-worker-80.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-19.cluster-333284:45520, nodeAddress emr-worker-19.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-28.cluster-333284:42866, nodeAddress emr-worker-28.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-39.cluster-333284:33515, nodeAddress emr-worker-39.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-55.cluster-333284:42735, nodeAddress emr-worker-55.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-101.cluster-333284:40838, nodeAddress emr-worker-101.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-90.cluster-333284:43983, nodeAddress emr-worker-90.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-23.cluster-333284:44788, nodeAddress emr-worker-23.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-43.cluster-333284:34585, nodeAddress emr-worker-43.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-73.cluster-333284:33645, nodeAddress emr-worker-73.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-100.cluster-333284:39577, nodeAddress emr-worker-100.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-87.cluster-333284:36038, nodeAddress emr-worker-87.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-62.cluster-333284:43835, nodeAddress emr-worker-62.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-56.cluster-333284:38184, nodeAddress emr-worker-56.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-2.cluster-333284:36215, nodeAddress emr-worker-2.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-3.cluster-333284:39489, nodeAddress emr-worker-3.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-13.cluster-333284:33605, nodeAddress emr-worker-13.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-26.cluster-333284:37645, nodeAddress emr-worker-26.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-15.cluster-333284:35557, nodeAddress emr-worker-15.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-85.cluster-333284:35883, nodeAddress emr-worker-85.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-11.cluster-333284:41668, nodeAddress emr-worker-11.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-76.cluster-333284:42155, nodeAddress emr-worker-76.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-72.cluster-333284:39308, nodeAddress emr-worker-72.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-81.cluster-333284:34832, nodeAddress emr-worker-81.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-59.cluster-333284:32851, nodeAddress emr-worker-59.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-84.cluster-333284:38500, nodeAddress emr-worker-84.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-18.cluster-333284:36193, nodeAddress emr-worker-18.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-94.cluster-333284:37813, nodeAddress emr-worker-94.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-14.cluster-333284:35132, nodeAddress emr-worker-14.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-24.cluster-333284:39561, nodeAddress emr-worker-24.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-10.cluster-333284:39696, nodeAddress emr-worker-10.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-41.cluster-333284:44780, nodeAddress emr-worker-41.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-38.cluster-333284:36743, nodeAddress emr-worker-38.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-98.cluster-333284:33051, nodeAddress emr-worker-98.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-66.cluster-333284:33117, nodeAddress emr-worker-66.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-22.cluster-333284:42176, nodeAddress emr-worker-22.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-33.cluster-333284:34014, nodeAddress emr-worker-33.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-91.cluster-333284:45861, nodeAddress emr-worker-91.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-53.cluster-333284:37563, nodeAddress emr-worker-53.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-35.cluster-333284:33908, nodeAddress emr-worker-35.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-20.cluster-333284:42821, nodeAddress emr-worker-20.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-93.cluster-333284:44161, nodeAddress emr-worker-93.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-89.cluster-333284:46184, nodeAddress emr-worker-89.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-52.cluster-333284:38655, nodeAddress emr-worker-52.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-95.cluster-333284:40463, nodeAddress emr-worker-95.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-51.cluster-333284:45428, nodeAddress emr-worker-51.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-48.cluster-333284:40673, nodeAddress emr-worker-48.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-92.cluster-333284:41143, nodeAddress emr-worker-92.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-68.cluster-333284:34997, nodeAddress emr-worker-68.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-6.cluster-333284:40714, nodeAddress emr-worker-6.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-79.cluster-333284:44584, nodeAddress emr-worker-79.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-64.cluster-333284:40715, nodeAddress emr-worker-64.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-49.cluster-333284:39108, nodeAddress emr-worker-49.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-96.cluster-333284:46215, nodeAddress emr-worker-96.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-45.cluster-333284:40093, nodeAddress emr-worker-45.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-70.cluster-333284:42161, nodeAddress emr-worker-70.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-32.cluster-333284:35591, nodeAddress emr-worker-32.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-36.cluster-333284:34085, nodeAddress emr-worker-36.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-42.cluster-333284:36580, nodeAddress emr-worker-42.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-67.cluster-333284:41571, nodeAddress emr-worker-67.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-16.cluster-333284:43384, nodeAddress emr-worker-16.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-12.cluster-333284:44057, nodeAddress emr-worker-12.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-46.cluster-333284:35389, nodeAddress emr-worker-46.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-44.cluster-333284:43473, nodeAddress emr-worker-44.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-34.cluster-333284:42849, nodeAddress emr-worker-34.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-29.cluster-333284:43293, nodeAddress emr-worker-29.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-86.cluster-333284:42364, nodeAddress emr-worker-86.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-65.cluster-333284:35807, nodeAddress emr-worker-65.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-78.cluster-333284:35224, nodeAddress emr-worker-78.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-63.cluster-333284:33673, nodeAddress emr-worker-63.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-82.cluster-333284:33841, nodeAddress emr-worker-82.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-54.cluster-333284:40918, nodeAddress emr-worker-54.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-31.cluster-333284:40659, nodeAddress emr-worker-31.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-47.cluster-333284:35612, nodeAddress emr-worker-47.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-25.cluster-333284:46502, nodeAddress emr-worker-25.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-99.cluster-333284:45620, nodeAddress emr-worker-99.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-61.cluster-333284:33538, nodeAddress emr-worker-61.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-4.cluster-333284:39333, nodeAddress emr-worker-4.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-5.cluster-333284:41566, nodeAddress emr-worker-5.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-30.cluster-333284:43303, nodeAddress emr-worker-30.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-83.cluster-333284:38148, nodeAddress emr-worker-83.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-57.cluster-333284:45660, nodeAddress emr-worker-57.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-7.cluster-333284:43542, nodeAddress emr-worker-7.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-37.cluster-333284:38303, nodeAddress emr-worker-37.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-69.cluster-333284:46379, nodeAddress emr-worker-69.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-17.cluster-333284:45327, nodeAddress emr-worker-17.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-58.cluster-333284:42005, nodeAddress emr-worker-58.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-97.cluster-333284:43905, nodeAddress emr-worker-97.cluster-333284:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Obtained new Application ID: application_1661507799466_0125
+22/08/29 21:14:03 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Set the environment for the application master
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Environment for AM :{CLASSPATH=${CLASSPATH}:./*:$HADOOP_CONF_DIR:$HADOOP_COMMON_HOME/share/hadoop/common/*:$HADOOP_COMMON_HOME/share/hadoop/common/lib/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*:$HADOOP_YARN_HOME/share/hadoop/yarn/*:$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*:/opt/apps/extra-jars/*:$HADOOP_HOME/share/hadoop/tools/lib/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*:/usr/lib/hadoop-lzo/lib/*}
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: buildLocalResourceMap ....
+22/08/29 21:14:03 INFO yarn.YarnUtils: Registered file in LocalResources :: hdfs://emr-header-1.cluster-333284:9000/user/root/giraph_yarn_jar_cache/application_1661507799466_0125/giraph-conf.xml
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: LIB JARS :
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name .
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking .
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /etc/ecm/hadoop-conf
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /etc/ecm/hadoop-conf
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/lib/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/lib
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/lib/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/lib
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/lib/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/lib
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/lib/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/lib
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current/lib/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current/lib
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /usr/lib/tez-current/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /usr/lib/tez-current
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /usr/lib/tez-current/lib/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /usr/lib/tez-current/lib
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /etc/ecm/tez-conf
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /etc/ecm/tez-conf
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /opt/apps/extra-jars/*
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /opt/apps/extra-jars
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /usr/lib/spark-current/yarn/spark-2.3.1-yarn-shuffle.jar
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /usr/lib/spark-current/yarn/spark-2.3.1-yarn-shuffle.jar
+22/08/29 21:14:03 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current/contrib/capacity-scheduler/*.jar
+22/08/29 21:14:03 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current/contrib/capacity-scheduler
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: ApplicationSumbissionContext for GiraphApplicationMaster launch container is populated.
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Submitting application to ASM
+22/08/29 21:14:03 INFO impl.YarnClientImpl: Submitted application application_1661507799466_0125
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: Got new appId after submission :application_1661507799466_0125
+22/08/29 21:14:03 INFO yarn.GiraphYarnClient: GiraphApplicationMaster container request was submitted to ResourceManager for job: Giraph: analysis.Analysis
+22/08/29 21:14:04 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 0.81 secs
+22/08/29 21:14:04 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: ACCEPTED, Containers used: 1
+22/08/29 21:14:08 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 4.82 secs
+22/08/29 21:14:08 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:12 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 8.82 secs
+22/08/29 21:14:12 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:16 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 12.82 secs
+22/08/29 21:14:16 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:20 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 16.83 secs
+22/08/29 21:14:20 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:24 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 20.83 secs
+22/08/29 21:14:24 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:28 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 24.83 secs
+22/08/29 21:14:28 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:32 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 28.84 secs
+22/08/29 21:14:32 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:36 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 32.84 secs
+22/08/29 21:14:36 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:40 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 36.85 secs
+22/08/29 21:14:40 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:44 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 40.85 secs
+22/08/29 21:14:44 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:48 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 44.85 secs
+22/08/29 21:14:48 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:52 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 48.85 secs
+22/08/29 21:14:52 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:14:56 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 52.86 secs
+22/08/29 21:14:56 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:00 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 56.86 secs
+22/08/29 21:15:00 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:04 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 60.87 secs
+22/08/29 21:15:04 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:08 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 64.87 secs
+22/08/29 21:15:08 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:12 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 68.87 secs
+22/08/29 21:15:12 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:16 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 72.88 secs
+22/08/29 21:15:16 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:20 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 76.88 secs
+22/08/29 21:15:20 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:24 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 80.88 secs
+22/08/29 21:15:24 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:28 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 84.89 secs
+22/08/29 21:15:28 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:32 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 88.89 secs
+22/08/29 21:15:32 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:36 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 92.90 secs
+22/08/29 21:15:36 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:40 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 96.90 secs
+22/08/29 21:15:40 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:44 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 100.90 secs
+22/08/29 21:15:44 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:48 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 104.90 secs
+22/08/29 21:15:48 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:52 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 108.91 secs
+22/08/29 21:15:52 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:15:56 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 112.91 secs
+22/08/29 21:15:56 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:00 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 116.92 secs
+22/08/29 21:16:00 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:04 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 120.92 secs
+22/08/29 21:16:04 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:08 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 124.92 secs
+22/08/29 21:16:08 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:12 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 128.93 secs
+22/08/29 21:16:12 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:16 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 132.93 secs
+22/08/29 21:16:16 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:20 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 136.93 secs
+22/08/29 21:16:20 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:24 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 140.94 secs
+22/08/29 21:16:24 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:28 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 144.94 secs
+22/08/29 21:16:28 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:32 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 148.94 secs
+22/08/29 21:16:32 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:36 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 152.95 secs
+22/08/29 21:16:36 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:40 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 156.95 secs
+22/08/29 21:16:40 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:44 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 160.95 secs
+22/08/29 21:16:44 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:48 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 164.96 secs
+22/08/29 21:16:48 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:52 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 168.96 secs
+22/08/29 21:16:52 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:16:56 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 172.96 secs
+22/08/29 21:16:56 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:00 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 176.97 secs
+22/08/29 21:17:00 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:04 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 180.97 secs
+22/08/29 21:17:04 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:08 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 184.97 secs
+22/08/29 21:17:08 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:12 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 188.98 secs
+22/08/29 21:17:12 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:16 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 192.98 secs
+22/08/29 21:17:16 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:20 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 196.98 secs
+22/08/29 21:17:20 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:24 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 200.99 secs
+22/08/29 21:17:24 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:28 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 204.99 secs
+22/08/29 21:17:28 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:32 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 208.99 secs
+22/08/29 21:17:32 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:36 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 213.00 secs
+22/08/29 21:17:36 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:40 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 217.00 secs
+22/08/29 21:17:40 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:44 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 221.00 secs
+22/08/29 21:17:44 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:48 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 225.01 secs
+22/08/29 21:17:48 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:52 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 229.01 secs
+22/08/29 21:17:52 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:17:56 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 233.01 secs
+22/08/29 21:17:56 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:00 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 237.02 secs
+22/08/29 21:18:00 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:04 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 241.02 secs
+22/08/29 21:18:04 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:08 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 245.02 secs
+22/08/29 21:18:08 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:12 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 249.03 secs
+22/08/29 21:18:12 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:16 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 253.03 secs
+22/08/29 21:18:16 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:20 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 257.03 secs
+22/08/29 21:18:20 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:24 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 261.04 secs
+22/08/29 21:18:24 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:28 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 265.04 secs
+22/08/29 21:18:28 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:32 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 269.04 secs
+22/08/29 21:18:32 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:36 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 273.05 secs
+22/08/29 21:18:36 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:40 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 277.05 secs
+22/08/29 21:18:40 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 22
+22/08/29 21:18:44 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 281.05 secs
+22/08/29 21:18:44 INFO yarn.GiraphYarnClient: appattempt_1661507799466_0125_000001, State: RUNNING, Containers used: 2
+22/08/29 21:18:46 INFO yarn.GiraphYarnClient: Cleaning up HDFS distributed cache directory for Giraph job.
+22/08/29 21:18:46 INFO yarn.GiraphYarnClient: Completed Giraph: analysis.Analysis: SUCCEEDED, total running time: 4 minutes, 42 seconds.
+2022-08-29 21:13:59
+2022-08-29 21:18:47

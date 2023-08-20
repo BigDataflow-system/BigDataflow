@@ -1,0 +1,399 @@
+
+22/08/30 16:39:44 INFO client.RMProxy: Connecting to ResourceManager at emr-header-1.cluster-333708/192.168.0.11:8032
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-2.cluster-333708:35955, nodeAddress emr-worker-2.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-222.cluster-333708:45389, nodeAddress emr-worker-222.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-22.cluster-333708:35821, nodeAddress emr-worker-22.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-92.cluster-333708:44791, nodeAddress emr-worker-92.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-112.cluster-333708:38760, nodeAddress emr-worker-112.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-64.cluster-333708:41249, nodeAddress emr-worker-64.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-60.cluster-333708:44092, nodeAddress emr-worker-60.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-130.cluster-333708:43231, nodeAddress emr-worker-130.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-128.cluster-333708:41521, nodeAddress emr-worker-128.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-8.cluster-333708:44760, nodeAddress emr-worker-8.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-28.cluster-333708:38477, nodeAddress emr-worker-28.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-196.cluster-333708:38871, nodeAddress emr-worker-196.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-150.cluster-333708:34206, nodeAddress emr-worker-150.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-161.cluster-333708:42694, nodeAddress emr-worker-161.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-144.cluster-333708:36930, nodeAddress emr-worker-144.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-199.cluster-333708:36854, nodeAddress emr-worker-199.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-12.cluster-333708:37241, nodeAddress emr-worker-12.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-218.cluster-333708:33602, nodeAddress emr-worker-218.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-176.cluster-333708:42247, nodeAddress emr-worker-176.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-173.cluster-333708:44763, nodeAddress emr-worker-173.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-62.cluster-333708:45513, nodeAddress emr-worker-62.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-41.cluster-333708:38897, nodeAddress emr-worker-41.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-65.cluster-333708:43442, nodeAddress emr-worker-65.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-66.cluster-333708:44146, nodeAddress emr-worker-66.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-191.cluster-333708:32827, nodeAddress emr-worker-191.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-178.cluster-333708:41020, nodeAddress emr-worker-178.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-53.cluster-333708:44495, nodeAddress emr-worker-53.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-159.cluster-333708:33354, nodeAddress emr-worker-159.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-107.cluster-333708:43206, nodeAddress emr-worker-107.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-99.cluster-333708:37332, nodeAddress emr-worker-99.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-38.cluster-333708:35494, nodeAddress emr-worker-38.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-142.cluster-333708:43141, nodeAddress emr-worker-142.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-212.cluster-333708:33445, nodeAddress emr-worker-212.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-52.cluster-333708:45432, nodeAddress emr-worker-52.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-37.cluster-333708:37815, nodeAddress emr-worker-37.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-174.cluster-333708:38192, nodeAddress emr-worker-174.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-198.cluster-333708:46846, nodeAddress emr-worker-198.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-9.cluster-333708:36797, nodeAddress emr-worker-9.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-153.cluster-333708:35858, nodeAddress emr-worker-153.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-39.cluster-333708:39205, nodeAddress emr-worker-39.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-163.cluster-333708:42499, nodeAddress emr-worker-163.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-152.cluster-333708:42228, nodeAddress emr-worker-152.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-110.cluster-333708:42021, nodeAddress emr-worker-110.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-156.cluster-333708:34907, nodeAddress emr-worker-156.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-220.cluster-333708:46607, nodeAddress emr-worker-220.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-5.cluster-333708:40523, nodeAddress emr-worker-5.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-46.cluster-333708:40968, nodeAddress emr-worker-46.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-17.cluster-333708:36583, nodeAddress emr-worker-17.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-175.cluster-333708:43508, nodeAddress emr-worker-175.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-181.cluster-333708:38238, nodeAddress emr-worker-181.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-101.cluster-333708:38366, nodeAddress emr-worker-101.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-147.cluster-333708:43699, nodeAddress emr-worker-147.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-160.cluster-333708:40894, nodeAddress emr-worker-160.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-91.cluster-333708:33756, nodeAddress emr-worker-91.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-155.cluster-333708:43890, nodeAddress emr-worker-155.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-78.cluster-333708:44694, nodeAddress emr-worker-78.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-133.cluster-333708:38733, nodeAddress emr-worker-133.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-137.cluster-333708:41334, nodeAddress emr-worker-137.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-81.cluster-333708:46466, nodeAddress emr-worker-81.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-193.cluster-333708:44840, nodeAddress emr-worker-193.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-25.cluster-333708:38848, nodeAddress emr-worker-25.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-115.cluster-333708:33080, nodeAddress emr-worker-115.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-187.cluster-333708:38898, nodeAddress emr-worker-187.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-72.cluster-333708:33780, nodeAddress emr-worker-72.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-4.cluster-333708:38760, nodeAddress emr-worker-4.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-208.cluster-333708:46151, nodeAddress emr-worker-208.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-123.cluster-333708:37132, nodeAddress emr-worker-123.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-104.cluster-333708:42476, nodeAddress emr-worker-104.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-14.cluster-333708:40308, nodeAddress emr-worker-14.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-57.cluster-333708:33871, nodeAddress emr-worker-57.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-82.cluster-333708:38416, nodeAddress emr-worker-82.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-16.cluster-333708:37071, nodeAddress emr-worker-16.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-80.cluster-333708:41604, nodeAddress emr-worker-80.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-36.cluster-333708:34735, nodeAddress emr-worker-36.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-200.cluster-333708:42597, nodeAddress emr-worker-200.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-84.cluster-333708:41323, nodeAddress emr-worker-84.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-69.cluster-333708:33880, nodeAddress emr-worker-69.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-71.cluster-333708:44791, nodeAddress emr-worker-71.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-224.cluster-333708:34842, nodeAddress emr-worker-224.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-205.cluster-333708:37959, nodeAddress emr-worker-205.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-122.cluster-333708:36991, nodeAddress emr-worker-122.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-157.cluster-333708:42839, nodeAddress emr-worker-157.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-201.cluster-333708:40223, nodeAddress emr-worker-201.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-185.cluster-333708:42794, nodeAddress emr-worker-185.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-206.cluster-333708:35073, nodeAddress emr-worker-206.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-23.cluster-333708:44261, nodeAddress emr-worker-23.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-103.cluster-333708:35571, nodeAddress emr-worker-103.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-171.cluster-333708:33162, nodeAddress emr-worker-171.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-24.cluster-333708:43426, nodeAddress emr-worker-24.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-182.cluster-333708:44720, nodeAddress emr-worker-182.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-40.cluster-333708:34591, nodeAddress emr-worker-40.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-118.cluster-333708:39177, nodeAddress emr-worker-118.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-170.cluster-333708:43226, nodeAddress emr-worker-170.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-15.cluster-333708:42980, nodeAddress emr-worker-15.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-204.cluster-333708:46359, nodeAddress emr-worker-204.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-188.cluster-333708:42274, nodeAddress emr-worker-188.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-29.cluster-333708:43842, nodeAddress emr-worker-29.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-20.cluster-333708:36405, nodeAddress emr-worker-20.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-197.cluster-333708:40612, nodeAddress emr-worker-197.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-194.cluster-333708:35976, nodeAddress emr-worker-194.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-215.cluster-333708:43111, nodeAddress emr-worker-215.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-164.cluster-333708:37735, nodeAddress emr-worker-164.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-135.cluster-333708:38740, nodeAddress emr-worker-135.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-119.cluster-333708:40403, nodeAddress emr-worker-119.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-124.cluster-333708:46119, nodeAddress emr-worker-124.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-136.cluster-333708:45589, nodeAddress emr-worker-136.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-87.cluster-333708:34752, nodeAddress emr-worker-87.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-151.cluster-333708:39621, nodeAddress emr-worker-151.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-139.cluster-333708:33387, nodeAddress emr-worker-139.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-42.cluster-333708:35961, nodeAddress emr-worker-42.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-95.cluster-333708:46195, nodeAddress emr-worker-95.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-180.cluster-333708:44271, nodeAddress emr-worker-180.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-162.cluster-333708:44519, nodeAddress emr-worker-162.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-61.cluster-333708:33774, nodeAddress emr-worker-61.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-35.cluster-333708:45444, nodeAddress emr-worker-35.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-3.cluster-333708:34354, nodeAddress emr-worker-3.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-33.cluster-333708:43545, nodeAddress emr-worker-33.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-195.cluster-333708:34314, nodeAddress emr-worker-195.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-126.cluster-333708:43961, nodeAddress emr-worker-126.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-131.cluster-333708:41613, nodeAddress emr-worker-131.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-211.cluster-333708:45339, nodeAddress emr-worker-211.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-27.cluster-333708:39554, nodeAddress emr-worker-27.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-177.cluster-333708:33940, nodeAddress emr-worker-177.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-70.cluster-333708:35255, nodeAddress emr-worker-70.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-209.cluster-333708:33398, nodeAddress emr-worker-209.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-21.cluster-333708:35898, nodeAddress emr-worker-21.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-225.cluster-333708:46192, nodeAddress emr-worker-225.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-79.cluster-333708:43536, nodeAddress emr-worker-79.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-169.cluster-333708:41410, nodeAddress emr-worker-169.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-111.cluster-333708:41426, nodeAddress emr-worker-111.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-34.cluster-333708:46842, nodeAddress emr-worker-34.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-106.cluster-333708:38125, nodeAddress emr-worker-106.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-49.cluster-333708:46794, nodeAddress emr-worker-49.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-48.cluster-333708:34287, nodeAddress emr-worker-48.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-168.cluster-333708:34523, nodeAddress emr-worker-168.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-30.cluster-333708:34781, nodeAddress emr-worker-30.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-63.cluster-333708:45354, nodeAddress emr-worker-63.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-90.cluster-333708:34494, nodeAddress emr-worker-90.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-102.cluster-333708:34258, nodeAddress emr-worker-102.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-32.cluster-333708:41373, nodeAddress emr-worker-32.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-146.cluster-333708:34006, nodeAddress emr-worker-146.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-116.cluster-333708:34067, nodeAddress emr-worker-116.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-50.cluster-333708:43676, nodeAddress emr-worker-50.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-127.cluster-333708:36925, nodeAddress emr-worker-127.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-214.cluster-333708:35608, nodeAddress emr-worker-214.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-143.cluster-333708:41657, nodeAddress emr-worker-143.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-148.cluster-333708:41573, nodeAddress emr-worker-148.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-94.cluster-333708:45319, nodeAddress emr-worker-94.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-213.cluster-333708:41015, nodeAddress emr-worker-213.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-129.cluster-333708:44488, nodeAddress emr-worker-129.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-68.cluster-333708:41821, nodeAddress emr-worker-68.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-207.cluster-333708:43245, nodeAddress emr-worker-207.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-59.cluster-333708:46828, nodeAddress emr-worker-59.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-75.cluster-333708:46425, nodeAddress emr-worker-75.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-141.cluster-333708:35606, nodeAddress emr-worker-141.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-125.cluster-333708:34455, nodeAddress emr-worker-125.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-18.cluster-333708:36543, nodeAddress emr-worker-18.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-192.cluster-333708:40007, nodeAddress emr-worker-192.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-190.cluster-333708:36026, nodeAddress emr-worker-190.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-189.cluster-333708:46225, nodeAddress emr-worker-189.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-11.cluster-333708:39254, nodeAddress emr-worker-11.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-158.cluster-333708:43721, nodeAddress emr-worker-158.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-51.cluster-333708:36757, nodeAddress emr-worker-51.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-43.cluster-333708:41166, nodeAddress emr-worker-43.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-54.cluster-333708:42794, nodeAddress emr-worker-54.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-202.cluster-333708:35564, nodeAddress emr-worker-202.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-88.cluster-333708:43873, nodeAddress emr-worker-88.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-154.cluster-333708:45587, nodeAddress emr-worker-154.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-96.cluster-333708:42587, nodeAddress emr-worker-96.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-108.cluster-333708:39384, nodeAddress emr-worker-108.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-120.cluster-333708:39920, nodeAddress emr-worker-120.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-44.cluster-333708:44742, nodeAddress emr-worker-44.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-7.cluster-333708:45218, nodeAddress emr-worker-7.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-167.cluster-333708:44737, nodeAddress emr-worker-167.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-105.cluster-333708:38294, nodeAddress emr-worker-105.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-203.cluster-333708:40338, nodeAddress emr-worker-203.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-6.cluster-333708:43470, nodeAddress emr-worker-6.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-76.cluster-333708:44916, nodeAddress emr-worker-76.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-216.cluster-333708:42538, nodeAddress emr-worker-216.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-219.cluster-333708:39556, nodeAddress emr-worker-219.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-10.cluster-333708:45732, nodeAddress emr-worker-10.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-83.cluster-333708:34730, nodeAddress emr-worker-83.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-113.cluster-333708:34953, nodeAddress emr-worker-113.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-179.cluster-333708:45718, nodeAddress emr-worker-179.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-134.cluster-333708:33624, nodeAddress emr-worker-134.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-217.cluster-333708:45851, nodeAddress emr-worker-217.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-97.cluster-333708:38705, nodeAddress emr-worker-97.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-210.cluster-333708:45829, nodeAddress emr-worker-210.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-121.cluster-333708:42677, nodeAddress emr-worker-121.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-114.cluster-333708:43327, nodeAddress emr-worker-114.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-26.cluster-333708:45624, nodeAddress emr-worker-26.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-183.cluster-333708:35966, nodeAddress emr-worker-183.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-58.cluster-333708:34361, nodeAddress emr-worker-58.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-56.cluster-333708:43720, nodeAddress emr-worker-56.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-85.cluster-333708:45922, nodeAddress emr-worker-85.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-221.cluster-333708:40513, nodeAddress emr-worker-221.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-98.cluster-333708:33791, nodeAddress emr-worker-98.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-1.cluster-333708:43523, nodeAddress emr-worker-1.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-132.cluster-333708:33214, nodeAddress emr-worker-132.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-117.cluster-333708:41868, nodeAddress emr-worker-117.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-145.cluster-333708:46754, nodeAddress emr-worker-145.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-45.cluster-333708:40885, nodeAddress emr-worker-45.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-89.cluster-333708:34897, nodeAddress emr-worker-89.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-55.cluster-333708:40990, nodeAddress emr-worker-55.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-19.cluster-333708:34377, nodeAddress emr-worker-19.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-47.cluster-333708:42914, nodeAddress emr-worker-47.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-13.cluster-333708:40836, nodeAddress emr-worker-13.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-77.cluster-333708:33925, nodeAddress emr-worker-77.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-172.cluster-333708:37203, nodeAddress emr-worker-172.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-73.cluster-333708:42784, nodeAddress emr-worker-73.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-166.cluster-333708:37926, nodeAddress emr-worker-166.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-165.cluster-333708:35692, nodeAddress emr-worker-165.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-86.cluster-333708:37827, nodeAddress emr-worker-86.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-223.cluster-333708:42468, nodeAddress emr-worker-223.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-149.cluster-333708:46564, nodeAddress emr-worker-149.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-67.cluster-333708:34856, nodeAddress emr-worker-67.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-74.cluster-333708:37873, nodeAddress emr-worker-74.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-184.cluster-333708:37134, nodeAddress emr-worker-184.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-100.cluster-333708:39794, nodeAddress emr-worker-100.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-140.cluster-333708:39596, nodeAddress emr-worker-140.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-186.cluster-333708:44732, nodeAddress emr-worker-186.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-93.cluster-333708:36321, nodeAddress emr-worker-93.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-109.cluster-333708:32919, nodeAddress emr-worker-109.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-31.cluster-333708:40042, nodeAddress emr-worker-31.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got node report from ASM for, nodeId=emr-worker-138.cluster-333708:36017, nodeAddress emr-worker-138.cluster-333708:8042, nodeRackName /default-rack, nodeNumContainers 0
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Obtained new Application ID: application_1661692078030_0027
+22/08/30 16:39:44 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Set the environment for the application master
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Environment for AM :{CLASSPATH=${CLASSPATH}:./*:$HADOOP_CONF_DIR:$HADOOP_COMMON_HOME/share/hadoop/common/*:$HADOOP_COMMON_HOME/share/hadoop/common/lib/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/*:$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*:$HADOOP_YARN_HOME/share/hadoop/yarn/*:$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*:/opt/apps/extra-jars/*:$HADOOP_HOME/share/hadoop/tools/lib/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*:/usr/lib/hadoop-lzo/lib/*}
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: buildLocalResourceMap ....
+22/08/30 16:39:44 INFO yarn.YarnUtils: Registered file in LocalResources :: hdfs://emr-header-1.cluster-333708:9000/user/root/giraph_yarn_jar_cache/application_1661692078030_0027/giraph-conf.xml
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: LIB JARS :
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name .
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking .
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /etc/ecm/hadoop-conf
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /etc/ecm/hadoop-conf
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/lib/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/lib
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/common
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/lib/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/lib
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/hdfs
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/lib/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/lib
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/yarn
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/lib/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/lib
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/ecm/service/hadoop/2.7.2-1.3.1/package/hadoop-2.7.2-1.3.1/share/hadoop/mapreduce
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current/lib/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current/lib
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /usr/lib/tez-current/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /usr/lib/tez-current
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /usr/lib/tez-current/lib/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /usr/lib/tez-current/lib
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /etc/ecm/tez-conf
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /etc/ecm/tez-conf
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /opt/apps/extra-jars/*
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /opt/apps/extra-jars
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /usr/lib/spark-current/yarn/spark-2.3.1-yarn-shuffle.jar
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /usr/lib/spark-current/yarn/spark-2.3.1-yarn-shuffle.jar
+22/08/30 16:39:44 INFO yarn.YarnUtils: Class path name /usr/lib/hadoop-current/contrib/capacity-scheduler/*.jar
+22/08/30 16:39:44 INFO yarn.YarnUtils: base path checking /usr/lib/hadoop-current/contrib/capacity-scheduler
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: ApplicationSumbissionContext for GiraphApplicationMaster launch container is populated.
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Submitting application to ASM
+22/08/30 16:39:44 INFO impl.YarnClientImpl: Submitted application application_1661692078030_0027
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: Got new appId after submission :application_1661692078030_0027
+22/08/30 16:39:44 INFO yarn.GiraphYarnClient: GiraphApplicationMaster container request was submitted to ResourceManager for job: Giraph: analysis.Analysis
+22/08/30 16:39:45 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 0.81 secs
+22/08/30 16:39:45 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: ACCEPTED, Containers used: 1
+22/08/30 16:39:49 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 4.82 secs
+22/08/30 16:39:49 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:39:53 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 8.82 secs
+22/08/30 16:39:53 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:39:57 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 12.82 secs
+22/08/30 16:39:57 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:01 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 16.83 secs
+22/08/30 16:40:01 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:05 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 20.83 secs
+22/08/30 16:40:05 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:09 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 24.84 secs
+22/08/30 16:40:09 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:13 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 28.84 secs
+22/08/30 16:40:13 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:17 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 32.85 secs
+22/08/30 16:40:17 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:21 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 36.85 secs
+22/08/30 16:40:21 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:25 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 40.85 secs
+22/08/30 16:40:25 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:29 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 44.86 secs
+22/08/30 16:40:29 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:33 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 48.86 secs
+22/08/30 16:40:33 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:37 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 52.87 secs
+22/08/30 16:40:37 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:41 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 56.87 secs
+22/08/30 16:40:41 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:45 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 60.88 secs
+22/08/30 16:40:45 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:49 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 64.88 secs
+22/08/30 16:40:49 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:53 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 68.88 secs
+22/08/30 16:40:53 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:40:57 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 72.89 secs
+22/08/30 16:40:57 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:01 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 76.89 secs
+22/08/30 16:41:01 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:05 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 80.89 secs
+22/08/30 16:41:05 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:09 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 84.90 secs
+22/08/30 16:41:09 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:13 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 88.90 secs
+22/08/30 16:41:13 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:17 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 92.91 secs
+22/08/30 16:41:17 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:21 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 96.91 secs
+22/08/30 16:41:21 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:25 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 100.91 secs
+22/08/30 16:41:25 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:29 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 104.92 secs
+22/08/30 16:41:29 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:33 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 108.92 secs
+22/08/30 16:41:33 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:37 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 112.92 secs
+22/08/30 16:41:37 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:41 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 116.93 secs
+22/08/30 16:41:41 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:45 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 120.93 secs
+22/08/30 16:41:45 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:49 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 124.93 secs
+22/08/30 16:41:49 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:53 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 128.94 secs
+22/08/30 16:41:53 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:41:57 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 132.94 secs
+22/08/30 16:41:57 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:01 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 136.94 secs
+22/08/30 16:42:01 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:05 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 140.95 secs
+22/08/30 16:42:05 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:09 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 144.95 secs
+22/08/30 16:42:09 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:13 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 148.96 secs
+22/08/30 16:42:13 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:17 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 152.96 secs
+22/08/30 16:42:17 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:21 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 156.96 secs
+22/08/30 16:42:21 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:25 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 160.97 secs
+22/08/30 16:42:25 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:29 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 164.97 secs
+22/08/30 16:42:29 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:33 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 168.97 secs
+22/08/30 16:42:33 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:37 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 172.98 secs
+22/08/30 16:42:37 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:41 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 176.98 secs
+22/08/30 16:42:41 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:45 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 180.98 secs
+22/08/30 16:42:45 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:49 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 184.99 secs
+22/08/30 16:42:49 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:53 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 188.99 secs
+22/08/30 16:42:53 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:42:57 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 192.99 secs
+22/08/30 16:42:57 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:01 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 197.00 secs
+22/08/30 16:43:01 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:05 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 201.00 secs
+22/08/30 16:43:05 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:09 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 205.01 secs
+22/08/30 16:43:09 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:13 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 209.01 secs
+22/08/30 16:43:13 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:17 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 213.01 secs
+22/08/30 16:43:17 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:21 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 217.01 secs
+22/08/30 16:43:21 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:25 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 221.02 secs
+22/08/30 16:43:25 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:29 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 225.02 secs
+22/08/30 16:43:29 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:33 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 229.02 secs
+22/08/30 16:43:33 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 122
+22/08/30 16:43:37 INFO yarn.GiraphYarnClient: Giraph: analysis.Analysis, Elapsed: 233.03 secs
+22/08/30 16:43:37 INFO yarn.GiraphYarnClient: appattempt_1661692078030_0027_000001, State: RUNNING, Containers used: 2
+22/08/30 16:43:38 INFO yarn.GiraphYarnClient: Cleaning up HDFS distributed cache directory for Giraph job.
+22/08/30 16:43:38 INFO yarn.GiraphYarnClient: Completed Giraph: analysis.Analysis: SUCCEEDED, total running time: 3 minutes, 53 seconds.
+2022-08-30 16:39:40
+2022-08-30 16:43:39
