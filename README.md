@@ -4,7 +4,7 @@ BigDataflow is a distributed interprocedural dataflow analysis framework for ana
 
 ## Getting started
 
-As the distributed analysis framework is implemented atop the general distributed graph processing platform (i.e., Apache Giraph), make sure you have already installed java and hadoop before employ BigDataflow on your machines.
+As the distributed analysis framework is implemented atop the general distributed graph processing platform (i.e., Apache Giraph), ensure that you have already installed Java and Hadoop before employing BigDataflow on your machines.
 
 Versions for use with BigDataflow:
 
@@ -13,11 +13,11 @@ Versions for use with BigDataflow:
 
 Apache Hadoop has three different installation modes: `Standalone`, `Pseudo-distributed`, and `Fully Distributed`.
 
-If you plans to run BigDataflow on the cloud (i.e. in `Fully Distributed` mode), you can just skip the ***Install Hadoop at local*** part and directly employ BigDataflow with no need for installing `hadoop`. Otherwise, you have to prepare hadoop enviroment on your local machine/cluster as follows.
+If you plan to run BigDataflow on the cloud (i.e. in `Fully Distributed` mode), you can just skip the ***Installing Hadoop in Local Mode*** part and directly employ BigDataflow with no need for installing `hadoop`. Otherwise, you have to prepare a Hadoop environment on your local machine/cluster as follows.
 
-### Install Hadoop at local*
+### Installing Hadoop in Local Mode*
 
-1, Download hadoop file.
+1, Download the Hadoop file.
 
 ```bash
 $ wget https://archive.apache.org/dist/hadoop/common/hadoop-2.7.2/
@@ -32,7 +32,7 @@ $ cd hadoop-2.7.2
 
 3, vi `etc/hadoop/core-site.xml`
 
-**Remember to change the hadoop path according to your hadoop-2.7.2 installation directory**
+**Remember to change the Hadoop path according to your hadoop-2.7.2 installation directory**
 
 ```xml
 <configuration>
@@ -150,15 +150,21 @@ $ git clone git@github.com:BigDataflow-system/BigDataflow.git
 2, Interfaces under the `BigDataflow/analysis/src/main/java/data`
 
 `Fact`: Fact of dataflow analysis. 
-`Msg`:   Message of dataflow analysis, consisting of target vertex's id and outgoing fact of current vertex.
+
+`Msg`:   Message of dataflow analysis, consisting of target vertex's id and the outgoing fact of the current vertex.
+
 `Stmt`: Statement at each vertex of CFG.
+
 `StmtList`: Statement list at each vertex of CFG.
-`Tool` : Tool of dataflow analysis, consisting of merging, transfering, and propagating operations.
+
+`Tool` : Tool of dataflow analysis, consisting of merging, transferring, and propagating operations.
+
 `VertexValue`: Vertex attribute of each vertex in CFG, consisting of its statement list and fact.
 
 3, Interfaces under the `BigDataflow/analysis/src/main/java/analysis`
 
-`Analysis` : The implementation of the optimized distributed worklist algorithm. By overriding its functions, user can instantiate the `Msg`, `Fact`, `Tool` according to their client analysis.
+`Analysis` : The implementation of the optimized distributed worklist algorithm. Users can instantiate the `Msg`, `Fact`, `Tool` by overriding its functions according to their client analysis.
+
 `MasterBroadcast`: Executed in the master node at the beginning of each superstep, used to broadcast the entries to CFG.
 
 4, After implementing the interfaces, compile the code to produce the jar
@@ -184,7 +190,7 @@ $ jar uvf giraph-examples-1.4.0-SNAPSHOT-shaded.jar  ./your_analysis/*.class ; \
 $ jar uvf giraph-examples-1.4.0-SNAPSHOT-shaded.jar  ./your_data/*.class
 ```
 
-5, put your analysis jar to the giraph to  your correspongding the hadoop directory
+5, Put your analysis jar into your corresponding Hadoop directory
 
 ```bash
 # jar directory at local
@@ -200,7 +206,7 @@ $ cp jar_directoty/giraph-examples-1.4.0-SNAPSHOT-shaded.jar /opt/apps/extra-jar
 
 1, vi `alias_analysis_conf` for each CFG of a program
 
-If the BigDataflow is run at local, the content of `alias_analysis_conf.CFG` for each CFG is as follows:
+If the BigDataflow is run locally, the content of `alias_analysis_conf.CFG` for each CFG is as follows:
 
 ```bash
 hdfs://localhost:8000/alias_bench/CFG/entry
@@ -243,7 +249,7 @@ $ hadoop fs -mv /alias_graphs/CFG/var_singleton_info.txt /alias_graphs/CFG/singl
 
 4, Run Alias Analysis
 
-And there are also seven parameters used to fit your own program and running environment:
+And there are also some parameters used to fit your own analysis and running environment:
 
 `-vif` : the vertex input format of specific dataflow analysis
 
@@ -263,25 +269,25 @@ And there are also seven parameters used to fit your own program and running env
 
 `-w `    : number of workers to use for computation
 
-`-ca `  : custom arguments includes maximum milliseconds to wait before giving up waiting for the workers and heap memory limits for the workers. For example, if each physical core of one node can not exceed 10GB, then the heap memory is set to 10×1024 = 10240MB.
+`-ca `  : custom arguments include maximum milliseconds to wait before giving up waiting for the workers and heap memory limits for the workers. For example, if each physical core of one node can not exceed 10GB, then the heap memory is set to 10×1024 = 10240MB.
 
-then, by execute the commands below, the alias analysis is launched.
+Then, by executing the commands below, the alias analysis is launched.
 
 ```bash
 $ hadoop fs -mv /client/alias_analysis_conf.CFG /client/analysis_conf
 
-i=XX # j is set according to the predicted number of workers
+i=XX # i is set according to the predicted number of workers
 startdate=$(date "+%Y-%m-%d %H:%M:%S")
 echo "$startdate"
 
 if hadoop jar /opt/apps/extra-jars/giraph-examples-1.4.0-SNAPSHOT-shaded.jar \
   org.apache.giraph.GiraphRunner alias_analysis.AliasAnalysis \
   -vif alias_analysis.AliasVertexInputFormat \
-  -vip /test1/alias_sp/firefox/browser/id_stmt_info \
+  -vip /alias_graphs/CFG/id_stmt_info \
   -vof alias_analysis.AliasVertexOutputFormat \
-  -op /23test/total/alias/browser_out1 \
+  -op /alias_res/CFG_W"$i" \
   -eif alias_analysis.AliasEdgeInputFormat \
-  -eip /test1/alias_sp/firefox/browser/final \
+  -eip /alias_graphs/CFG/final \
   -wc alias_analysis.MyWorkerContext \
   -mc analysis.MasterBroadcast \
   -w "$j" \
@@ -304,11 +310,20 @@ fi
 $ hadoop fs -mv /client/analysis_conf /client/alias_analysis_conf.CFG 
 ```
 
+5, Check the results
+
+You can see the results in the file `cache_CFG.res` after executing the following command.
+
+```bash
+# supposed i=100
+$ hadoop fs -cat /alias_res/CFG_W100/p* > cache_CFG.res
+```
+
 **Running Cache Analysis**
 
 1, vi `cache_analysis_conf`
 
-Similar to alias analysis, the content of `cache_analysis_conf` is as follow:
+Similar to alias analysis, the content of `cache_analysis_conf` is as follows.
 
 ```bash
 # run BigDataflow at local
@@ -347,11 +362,11 @@ echo "$startdate"
 $ if hadoop jar /opt/apps/extra-jars/giraph-examples-1.4.0-SNAPSHOT-shaded.jar \
   org.apache.giraph.GiraphRunner cache_analysis.CacheAnalysis \
   -vif cache_analysis.CacheVertexInputFormat \
-  -vip /test1/cache_in/openssl/fuzz/new_nodes \
+  -vip /cache_graphs/CFG/new_nodes \
   -vof cache_analysis.CacheVertexOutputFormat \
-  -op /23test/total/cache/fuzz_out3 \
+  -op /cache_res/CFG_W"$i" \
   -eif cache_analysis.CacheEdgeInputFormat \
-  -eip /test1/cache_in/openssl/fuzz/final \
+  -eip /cache_graphs/CFG/final \
   -mc analysis.MasterBroadcast \
   -w "$i" \
   -ca giraph.maxCounterWaitMsecs=-1,giraph.yarn.task.heap.mb=14336 \
@@ -373,16 +388,3 @@ fi
 $ hadoop fs -mv /cache_entrys/entry /cache_entrys/CFG.entry 
 $ hadoop fs -mv /client/analysis_conf /client/cache_analysis_conf
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
