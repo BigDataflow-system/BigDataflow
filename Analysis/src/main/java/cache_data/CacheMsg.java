@@ -10,7 +10,6 @@ import data.Msg;
 public class CacheMsg extends Msg{
 
   public CacheMsg(){
-    // fact = new CacheState();
     fact = null;
   }
 

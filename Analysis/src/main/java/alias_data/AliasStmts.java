@@ -16,8 +16,6 @@ public class AliasStmts extends StmtList{
     size = 1;
     stmts = new AStmt[1];
     stmts[0] = new EmptyAStmt();
-    // super();
-    // stmt = new EmptyStmt();
   }
 
   public AliasStmts(Scanner sc) {
@@ -31,15 +29,11 @@ public class AliasStmts extends StmtList{
     AStmt astmt = (AStmt)stmts[0];
     tmp.getStmts()[0] = astmt.decopy();
     return tmp;
-    // StmtWritable tmp = new StmtWritable();
-    // tmp.stmt = this.stmt.decopy();
-    // return tmp;
   }
 
   public void setDeep(StmtList stmtlist) {
     AStmt astmt = (AStmt)stmtlist.getStmts()[0];
     this.stmts[0] = astmt.decopy();
-    // this.stmt = stmtWritable.stmt.decopy();
   }
     
   @Override

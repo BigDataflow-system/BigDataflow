@@ -10,7 +10,6 @@ import data.*;
 public class CacheVertexValue extends VertexValue {
 
   public CacheVertexValue(){
-    /// super();
     stmts = new CacheIRs();
     fact = null;
   }

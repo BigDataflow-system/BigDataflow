@@ -7,7 +7,6 @@ import java.util.Iterator;
 import java.util.HashMap;
 import java.util.Map;
 import data.Fact;
-import data.CommonWrite;
 
 public class CacheState extends Fact {
   public Map[] IRs_Icache;

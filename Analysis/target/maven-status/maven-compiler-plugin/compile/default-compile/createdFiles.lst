@@ -48,7 +48,6 @@ data/Stmt.class
 alias_data/IntArrayWritable.class
 alias_stmt/StoreAStmt.class
 alias_analysis/AliasVertexOutputFormat$LabelPropagationTextVertexLineWriter.class
-data/CommonWrite.class
 data/Msg.class
 cache_analysis/CacheAnalysis.class
 cache_data/CacheVertexValue.class

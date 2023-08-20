@@ -25,11 +25,6 @@ public class Analysis<V extends VertexValue, M extends Msg> extends BasicComputa
     // msg = new CacheMsg();
   }
 
-  // public boolean passToSuccs(Iterable<M> messages, VertexValue VertexValue){
-  //   // TODO
-  //   return true;
-  // }
-
   public boolean beActive(Iterable<M> messages, VertexValue vertexValue){
     // TODO
     return true;

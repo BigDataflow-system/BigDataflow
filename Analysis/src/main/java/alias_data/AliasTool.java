@@ -67,44 +67,6 @@ public class AliasTool implements Tool<AliasMsg>{
   }
 
   public Fact combine(Iterable<AliasMsg> messages, VertexValue vertexValue){
-    // Map<Integer, NodeTuple> graphStore = new HashMap<>();
-    // for (AliasMsg message : messages) {
-    //   NodeTuple nodeTuple = new NodeTuple();
-    //   nodeTuple.setPegraph((Pegraph)message.getFact());
-    //   nodeTuple.setStmtList(message.getStmtList());
-    //   graphStore.put(message.getVertexID().get(), nodeTuple.getNew());
-    // }
-
-    // Pegraph out = null;
-    // AliasStmts stmts = (AliasStmts)vertexValue.getStmtList();
-    // AStmt stmt = (AStmt)stmts.getStmts()[0];
-    // SetWritable pre = vertexValue.getMsgPreds();
-
-    // if (graphStore.size() == 1) {
-    //   AStmt preStmt = null;
-    //   for (Map.Entry<Integer, NodeTuple> entry : graphStore.entrySet()) {
-    //     preStmt = entry.getValue().getStmt();
-    //     out = entry.getValue().getPegraph();
-    //   }
-    //   out = getPartial(stmt, preStmt, out, grammar, graphStore);
-    //   if (out == null) {
-    //     out = new Pegraph();
-    //   }
-    // }
-    // else {
-    //   out = new Pegraph();
-    //   for (Integer id : pre.getValues()) {
-    //     AStmt preStmt = graphStore.get(id).getStmt();
-    //     Pegraph out_graph = graphStore.get(id).getPegraph();
-    //     out_graph = getPartial(stmt, preStmt, out_graph, grammar, graphStore);
-    //     if (out_graph == null) continue;
-    //       out.merge(out_graph);
-    //     }
-    // }
-    // TODO list: wait for implementation according to the mergeA
-    // Pegraph out = null;
-    // return out;
-
     MapWritable graphStore = null;
     AliasVertexValue aliasVertexValue = (AliasVertexValue)vertexValue;
     MapWritable oldGraphStore = aliasVertexValue.getGraphStore();
@@ -112,7 +74,6 @@ public class AliasTool implements Tool<AliasMsg>{
         graphStore = new MapWritable();
         for (Writable id : oldGraphStore.keySet()) {
             graphStore.put(id, ((NodeTuple)oldGraphStore.get(id)).getNew());
-            // graphStore.put(id, ((NodeTuple)oldGraphStore.get(id)).getNew());
         }
     }
 
@@ -170,32 +131,6 @@ public class AliasTool implements Tool<AliasMsg>{
         }
         return new_peg;
     }
-
-    // if(stmt.getType() == TYPE.Return){
-    //   Pegraph out = null;
-    //     if (graphStore.size() == 1) {
-    //       Stmt preStmt = null;
-    //       for (Map.Entry<Writable, Writable> entry : graphStore.entrySet()) {
-    //         preStmt = ((NodeTuple)(entry.getValue())).getStmt();
-    //         out = ((NodeTuple)(entry.getValue())).getPegraph();
-    //       }
-    //       out = getPartial(stmt, preStmt, out, grammar, graphStore);
-    //       if (out == null) {
-    //         out = new Pegraph();
-    //       }
-    //     }
-    //     else {
-    //     	out = new Pegraph();
-    //       for (Map.Entry<Writable, Writable> entry : graphStore.entrySet()) {
-    //         Stmt preStmt = ((NodeTuple)(entry.getValue())).getStmt();
-    //         Pegraph out_graph = ((NodeTuple)(entry.getValue())).getPegraph();
-    //         out_graph = getPartial(stmt, preStmt, out_graph, grammar, graphStore);
-    //         if (out_graph == null) continue;
-    //           out.merge(out_graph);
-    //       }
-    //     }
-    //   return out;
-    // }
 
   }
 
@@ -265,10 +200,8 @@ public class AliasTool implements Tool<AliasMsg>{
     Set<Integer> ids = new HashSet<>();
     Pegraph pred_graph;
     for (Map.Entry<Writable, Writable> entry : graphStore.entrySet()) {
-        /// AStmt stmt = entry.getValue().getStmt();
         AStmt stmt = ((NodeTuple)(entry.getValue())).getStmt();
         if (stmt.getStmt() == TYPE.Call || stmt.getStmt() == TYPE.Callfptr) {
-            /// pred_graph = entry.getValue().getPegraph();
             pred_graph = ((NodeTuple)(entry.getValue())).getPegraph();
             collect_associated_variables(ids, args, len, ret, pred_graph, grammar);
             break;

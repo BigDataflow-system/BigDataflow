@@ -57,7 +57,6 @@ public class MasterBroadcast extends MasterCompute
             SetWritable entrys = new SetWritable();
             try {
                 // BufferedReader start = new BufferedReader(readHDFS("hdfs://localhost:8000/analysis/start"));
-                // BufferedReader start = new BufferedReader(readHDFS("hdfs://emr-header-1.cluster-273716:9000/analysis/start"));
                 // BufferedReader start = new BufferedReader(readHDFS("hdfs://emr-header-1.cluster-289320:9000/analysis/start"));
                 BufferedReader start = new BufferedReader(readHDFS(conf_path));
                 String entryPath = start.readLine();

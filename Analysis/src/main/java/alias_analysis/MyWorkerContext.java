@@ -28,8 +28,8 @@ public class MyWorkerContext extends WorkerContext {
     @Override
     public void preApplication() {
 //-----------------------------------------------------read from local----------------------------------------------------------------
-//        File singletonFile = new File("/home/decxu/Downloads/hadoop-2.5.1/share/hadoop/common/var_singleton_info.txt");
-//        File grammarFile = new File("/home/decxu/Downloads/hadoop-2.5.1/share/hadoop/common/rules_pointsto.txt");
+//        File singletonFile = new File("/Downloads/hadoop-2.5.1/share/hadoop/common/var_singleton_info.txt");
+//        File grammarFile = new File("/Downloads/hadoop-2.5.1/share/hadoop/common/rules_pointsto.txt");
 //        BufferedReader singletonReader;
 //        BufferedReader grammarReader;
 //        singletons = new Singletons();
@@ -60,8 +60,6 @@ public class MyWorkerContext extends WorkerContext {
         String grammarPath = null;
         try
         {
-            // BufferedReader pa = new BufferedReader(readHDFS("hdfs://localhost:8000/analysis/start"));
-            // BufferedReader pa = new BufferedReader(readHDFS("hdfs://emr-header-1.cluster-273716:9000/analysis/start"));
             // BufferedReader pa = new BufferedReader(readHDFS("hdfs://localhost:8000/analysis/start"));
             BufferedReader pa = new BufferedReader(readHDFS("hdfs://localhost:8000/client/analysis_conf"));
             pa.readLine();
