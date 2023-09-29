@@ -20,7 +20,7 @@ If you plan to run BigDataflow on the cloud (i.e. in `Fully Distributed` mode), 
 1, Download the Hadoop file.
 
 ```bash
-$ wget https://archive.apache.org/dist/hadoop/common/hadoop-2.7.2/
+$ wget https://archive.apache.org/dist/hadoop/common/hadoop-2.7.2/hadoop-2.7.2.tar.gz
 $ tar -xzf hadoop-2.7.2.tar.gz
 $ cd hadoop-2.7.2
 ```
@@ -130,7 +130,7 @@ $ cd hadoop-2.7.2
 7, Format NameNode
 
 ```bash
-$ cd hadoop-2.5.1/bin && hdfs namenode -format
+$ cd hadoop-2.7.2/bin && hdfs namenode -format
 ```
 
 8, Start HDFS and YARN
